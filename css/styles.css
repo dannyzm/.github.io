@@ -4,6 +4,8 @@ p{
     justify-content: center;
     grid-column: 1/2;
     grid-row: 2/3;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .top{
     display: grid;
@@ -162,6 +164,52 @@ iframe{
 .mission{
     text-align: center;
     display: flex;
-    font-size: 200%;
-    margin: 20px;
+    font-size: 150%;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {background-color: white;
+    }
+
+h1{ text-align: center;
+}
+
+.faq-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-header {
+    text-align: center;
+    font-family: 'Montserrat';
+    padding: 3%;
+    background-image: url("faq-image.jpg");
+    margin-bottom: 20px;
+}
+
+.faq-question-container {
+    text-align: center;
+    background-color: #B2E3FF;
+    font-family: 'League Spartan';
+}
+
+.faq-answer-container {
+    text-align: center;
+    font-family: 'League Spartan';
+    margin-top: 6px;
+}
+footer{
+    display: flex;
+    background-color: #83A0B0;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 115px;
+}
+main{
+    font-family: 'Montserrat';
+}
+.box{
+    background-color: black;
 }
